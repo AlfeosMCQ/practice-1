@@ -634,55 +634,11 @@ body {
 
 @media (max-width: 548px) {
     .section1 { 
-        .container_section1 {
-            .section1__content {
-                .section1__content-left {
-                    .section1__content-left-title {
-                        font-size: 38px;
-                    }
-        
-                    .section1__content-left-subtitle {
-                        font-size: 16px;
-                    
-                    }
-                }
-            }
-        }
+        min-height: 850px;
     }                
 }
 
-@media (max-width: 538px) {
-    .section1 { 
-        .container_section1 {
-            .section1__content {
-                .section1__content-left {
-                    .section1__content-left-title {
-                        font-size: 35px;
-                    }
-        
-                    .section1__content-left-subtitle {
-                        font-size: 13px;
-                    
-                    }
-                }
-            }
-        }
-    }                
-}
 
-@media (max-width: 497px) {
-    .section1 { 
-        .container_section1 {
-            .section1__content {
-                .section1__content-left {
-                    .section1__content-left-title {
-                        font-size: 32px;
-                    }
-                }
-            }
-        }                
-    }
-}
 
 @media (max-width: 459px) {
     .section1 {
@@ -698,6 +654,7 @@ body {
 
 @media (max-width: 396px) {
     .section1 {
+        min-height: 860px;
         .container_section1 {
             .section1__content {
                 .section1__content-left-button {
@@ -723,6 +680,12 @@ body {
     }
 }
 
+@media (max-width: 363px) {
+    .section1 {
+        min-height: 880px;
+    }
+}
+
 @media (max-width:350px) {
     .section2 {
         min-height: 1328px;
@@ -731,10 +694,16 @@ body {
 
 @media (max-width:331px) {
     .section1 {
-        min-height: 860px;
+        min-height: 900px;
     }
     .layout {
         min-height: 1595px
+    }
+}
+
+@media (max-width:328px) {
+    .section1 {
+        min-height: 935px;
     }
 }
 
